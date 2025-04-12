@@ -18,22 +18,18 @@
             overflow-x: hidden;
         }
         .hero {
-            background: url('banner.jpg') no-repeat center center/cover;
+            background: #111; /* Removed the image and set a dark background */
             height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;  /* Centering text horizontally */
-            text-align: center;  /* Centering text horizontally */
             padding: 2rem;
             position: relative;
-            z-index: 1;
         }
         .hero h1 {
             font-size: 4rem;
             font-family: 'Anton', sans-serif;
             color: #fff;
-            z-index: 1; /* Ensures text appears above image */
         }
         .highlight {
             color: orange;
@@ -41,7 +37,6 @@
         .hero p {
             font-size: 1.2rem;
             margin: 1rem 0;
-            z-index: 1; /* Ensures text appears above image */
         }
         .btn {
             background-color: orange;
@@ -52,7 +47,6 @@
             border-radius: 5px;
             margin-top: 1rem;
             display: inline-block;
-            z-index: 1; /* Ensures button appears above image */
         }
         .info-section {
             background: #111;
